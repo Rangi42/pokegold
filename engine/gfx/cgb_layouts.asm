@@ -743,7 +743,7 @@ INCLUDE "gfx/pack/pack.pal"
 
 _CGB_Pokepic:
 	call _CGB_MapPals
-	call LoadOverworldAttrmapPals
+	;call LoadOverworldAttrmapPals
 	ld de, SCREEN_WIDTH
 	hlcoord 0, 0, wAttrmap
 	ld a, [wMenuBorderTopCoord]

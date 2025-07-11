@@ -33,12 +33,6 @@ INCBIN "data/tilesets/johto_modern_metatiles.bin"
 TilesetJohtoModernColl::
 INCLUDE "data/tilesets/johto_modern_collision.asm"
 
-UnusedTilesetJohtoMeta:: ; unreferenced
-INCBIN "data/tilesets/unused_johto_metatiles.bin"
-
-UnusedTilesetJohtoColl:: ; unreferenced
-INCLUDE "data/tilesets/unused_johto_collision.asm"
-
 TilesetTraditionalHouseGFX::
 INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
 
@@ -277,3 +271,95 @@ SECTION "Tileset Data 6", ROMX
 
 TilesetKantoGFX::
 INCBIN "gfx/tilesets/kanto.2bpp.lz"
+
+TilesetKantoAttr::
+INCBIN "data/tilesets/kanto_attributes.bin"
+
+Tileset0Attr::
+TilesetJohtoAttr::
+INCBIN "data/tilesets/johto_attributes.bin"
+
+TilesetJohtoModernAttr::
+INCBIN "data/tilesets/johto_modern_attributes.bin"
+
+
+SECTION "Tileset Data 7", ROMX
+
+TilesetTraditionalHouseAttr::
+INCBIN "data/tilesets/traditional_house_attributes.bin"
+
+TilesetGateAttr::
+INCBIN "data/tilesets/gate_attributes.bin"
+
+TilesetPokecenterAttr::
+INCBIN "data/tilesets/pokecenter_attributes.bin"
+
+TilesetPortAttr::
+INCBIN "data/tilesets/port_attributes.bin"
+
+TilesetPlayersHouseAttr::
+INCBIN "data/tilesets/players_house_attributes.bin"
+
+TilesetMansionAttr::
+INCBIN "data/tilesets/mansion_attributes.bin"
+
+TilesetCaveAttr::
+TilesetDarkCaveAttr::
+INCBIN "data/tilesets/cave_attributes.bin"
+
+TilesetTowerAttr::
+INCBIN "data/tilesets/tower_attributes.bin"
+
+TilesetLabAttr::
+INCBIN "data/tilesets/lab_attributes.bin"
+
+
+SECTION "Tileset Data 8", ROMX
+
+TilesetFacilityAttr::
+INCBIN "data/tilesets/facility_attributes.bin"
+
+TilesetMartAttr::
+INCBIN "data/tilesets/mart_attributes.bin"
+
+TilesetGameCornerAttr::
+INCBIN "data/tilesets/game_corner_attributes.bin"
+
+TilesetTrainStationAttr::
+INCBIN "data/tilesets/train_station_attributes.bin"
+
+TilesetForestAttr::
+INCBIN "data/tilesets/forest_attributes.bin"
+
+TilesetEliteFourRoomAttr::
+INCBIN "data/tilesets/elite_four_room_attributes.bin"
+
+TilesetParkAttr::
+INCBIN "data/tilesets/park_attributes.bin"
+
+TilesetRuinsOfAlphAttr::
+INCBIN "data/tilesets/ruins_of_alph_attributes.bin"
+
+TilesetRadioTowerAttr::
+INCBIN "data/tilesets/radio_tower_attributes.bin"
+
+
+SECTION "Tileset Data 10", ROMX
+
+TilesetUndergroundAttr::
+INCBIN "data/tilesets/underground_attributes.bin"
+
+TilesetIcePathAttr::
+INCBIN "data/tilesets/ice_path_attributes.bin"
+
+TilesetChampionsRoomAttr::
+INCBIN "data/tilesets/champions_room_attributes.bin"
+
+TilesetHouseAttr::
+INCBIN "data/tilesets/house_attributes.bin"
+
+TilesetLighthouseAttr::
+INCBIN "data/tilesets/lighthouse_attributes.bin"
+
+TilesetPlayersRoomAttr::
+INCBIN "data/tilesets/players_room_attributes.bin"
